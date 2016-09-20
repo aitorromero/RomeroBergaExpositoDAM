@@ -43,7 +43,10 @@ final class StaticWordLibrary extends WordLibrary {
         "extra",
         "afegim",
         "mes",
-        "paraules",};
+        "paraules",
+        "alejandro",
+        "dice",
+        "palabrotas",};
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         "cartsbaióc",
@@ -53,7 +56,10 @@ final class StaticWordLibrary extends WordLibrary {
         "txeart",
         "efamig",
         "esm",
-        "arapsleu",};
+        "arapsleu",
+        "ajelaordn",
+        "cide",
+        "alapsatorb",};
 
     final static WordLibrary DEFAULT = new StaticWordLibrary();
 
