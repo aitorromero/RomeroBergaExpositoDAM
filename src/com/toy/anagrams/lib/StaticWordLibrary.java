@@ -41,6 +41,7 @@ final class StaticWordLibrary extends WordLibrary {
         "ambigu",
         "aritmètic",
         "inversa",
+        "prueba",
      };
 
     private static final String[] SCRAMBLED_WORD_LIST = {
@@ -48,6 +49,7 @@ final class StaticWordLibrary extends WordLibrary {
         "ibmaug",
         "mtiracitè",
         "evniasr",
+        "notelomereces",
     };
     
     final static WordLibrary DEFAULT = new StaticWordLibrary();
