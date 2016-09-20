@@ -27,8 +27,7 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
  */
 
-/* Anagram Game Application */
-
+ /* Anagram Game Application */
 package com.toy.anagrams.lib;
 
 /**
@@ -41,17 +40,15 @@ final class StaticWordLibrary extends WordLibrary {
         "ambigu",
         "aritmètic",
         "inversa",
-        "extra",
-     };
+        "extra",};
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         "cartsbaióc",
         "ibmaug",
         "mtiracitè",
         "evniasr",
-        "txeart",
-    };
-    
+        "txeart",};
+
     final static WordLibrary DEFAULT = new StaticWordLibrary();
 
     /**
@@ -62,6 +59,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     /**
      * Gets the word at a given index.
+     *
      * @param idx index of required word
      * @return word at that index in its natural form
      */
@@ -71,6 +69,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     /**
      * Gets the word at a given index in its scrambled form.
+     *
      * @param idx index of required word
      * @return word at that index in its scrambled form
      */
@@ -80,6 +79,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     /**
      * Gets the number of words in the library.
+     *
      * @return the total number of plain/scrambled word pairs in the library
      */
     public int getSize() {
@@ -88,6 +88,7 @@ final class StaticWordLibrary extends WordLibrary {
 
     /**
      * Checks whether a user's guess for a word at the given index is correct.
+     *
      * @param idx index of the word guessed
      * @param userGuess the user's guess for the actual word
      * @return true if the guess was correct; false otherwise
