@@ -46,7 +46,8 @@ final class StaticWordLibrary extends WordLibrary {
         "paraules",
         "alejandro",
         "dice",
-        "palabrotas",};
+        "palabrotas",
+};
 
     private static final String[] SCRAMBLED_WORD_LIST = {
         "cartsbaióc",
@@ -59,7 +60,8 @@ final class StaticWordLibrary extends WordLibrary {
         "arapsleu",
         "ajelaordn",
         "cide",
-        "alapsatorb",};
+        "alapsatorb",
+};
 
     final static WordLibrary DEFAULT = new StaticWordLibrary();
 
